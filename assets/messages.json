@@ -1,0 +1,82 @@
+[
+  {
+    "author": {
+      "id": "4",
+      "firstName": "Dharmendra",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "7",
+    "status": "seen",
+    "text": "hello, dharmendra",
+    "type": "text"
+  },
+  {
+    "author": {
+      "id": "4",
+      "firstName": "Dharmendra",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "8",
+    "status": "seen",
+    "text": "hello, dharmendra",
+    "type": "text"
+  },
+  {
+    "author": {
+      "id": "4",
+      "firstName": "Dharmendra",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "9",
+    "status": "seen",
+    "text": "",
+    "type": "file",
+    "uri": "http://127.0.0.1:8000/media/chat_media/chat.png",
+    "mimeType": "image/png",
+    "name": "chat.png",
+    "size": 11805
+  },
+  {
+    "author": {
+      "id": "4",
+      "firstName": "Dharmendra",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "8",
+    "status": "seen",
+    "text": "hello, dharmendra",
+    "type": "text"
+  },
+  {
+    "author": {
+      "id": "3",
+      "firstName": "Test",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "9",
+    "status": "seen",
+    "text": "",
+    "type": "file",
+    "uri": "http://127.0.0.1:8000/media/chat_media/chat.png",
+    "mimeType": "image/png",
+    "name": "chat.png",
+    "size": 11805
+  },
+  {
+    "author": {
+      "id": "3",
+      "firstName": "Test",
+      "lastName": "Patidar"
+    },
+    "createdAt": 1655648401000,
+    "id": "8",
+    "status": "seen",
+    "text": "hello,",
+    "type": "text"
+  }
+]

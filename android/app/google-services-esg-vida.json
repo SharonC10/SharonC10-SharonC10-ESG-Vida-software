@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737299795853",
+    "project_id": "esg-vida",
+    "storage_bucket": "esg-vida.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737299795853:android:d64e46debe6e6bbcbff7c4",
+        "android_client_info": {
+          "package_name": "com.esgvida.social.apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yXV4e8eLDPWqv-GHVQR3NfH2KOnZO2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
