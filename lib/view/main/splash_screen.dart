@@ -42,11 +42,11 @@ class _SplashScreenState extends State<SplashScreen> {
     );
     Timer(const Duration(seconds: 3), () {
       if (GlobalInMemoryData.I.isLogin) {
-        Get.offAll(() => DashBordScreen(
+        Get.offAll(() => DashBordScreen( //If the user is logged in, the app navigates to DashBordScreen.
               selectedIndex: 0,
             ));
       } else {
-        Get.offAll(() => const SignInScreen());
+        Get.offAll(() => const SignInScreen()); //If not logged in, it goes to SignInScreen.
       }
     });
   }

@@ -8,7 +8,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   Future<String> fetchData()async{
-    final response = await http.get(Uri.parse('http://10.0.2.2:8001/api/user/login'));
+    final response = await http.get(Uri.parse('http://10.0.2.2:8000/api/your-endpoint/'));
     if (response.statusCode == 200){
       return jsonDecode(response.body).toString();
     }else {
@@ -21,28 +21,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //! new add 
-      home: Scaffold(
-        appBar: AppBar(title: Text('Backend Test')),
-        body: FutureBuilder<String>(
-          future: fetchData(),
-          builder: (context, snapshot){
-            if (snapshot.connectionState == ConnectionState.waiting)
-             return Center(child: CircularProgressIndicator());
-            if (snapshot.hasError)
-            return Center(child: Text('Error: ${snapshot.error}'));
-            return Center(child: Text('Response: ${snapshot.data}'));
-          },
-        ),
-      ),
-    );
-          }
-}
-      //!
-      // title: 'Flutter Demo',
-      // theme: ThemeData(
-
-
+      title: 'Flutter Demo',
+      theme: ThemeData(
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -58,13 +38,12 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-       
-//         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-//       ),
-//       home: const MyHomePage(title: 'Flutter Demo Home Page'),
-//     );
-//   }
-// }
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
