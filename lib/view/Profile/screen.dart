@@ -47,7 +47,8 @@ class ProfileScreen extends StatelessWidget {
                       },
                       icon: const Icon(
                         Icons.settings_outlined,
-                        color: Color(0xFF32BEA6),
+                        // color: Color(0xFF32BEA6),
+                        color: Colors.white,
                         size: 40,
                       ),
                     ),
